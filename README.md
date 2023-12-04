@@ -40,6 +40,8 @@ Nmap также помогает сканировать запущенные с�
 
 ![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/2023-12-03_08-48-03.png)
 
+![ait text](https://github.com/SergeiShulga/13_3/blob/main/img/2023-12-03_09-35-47.png)
+
 ### Задание 2
 Проведите атаку на подбор пароля для службы SSH:
 
@@ -65,4 +67,4 @@ hydra -L users.txt -P pass.txt < ip-адрес > ssh
 
 В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.
 
-![alt text](https://github.com/SergeiShulga/13_2/blob/main/img/002.png)
+![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/2023-12-04_14-36-23.png)
