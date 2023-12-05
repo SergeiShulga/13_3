@@ -21,7 +21,7 @@ nmap  с ключом -sA используется для сканировани
 
 С запущенным Syricate все 1000 отсканированных портов на 10.10.10.1 находятся в игнорируемых состояниях и их состояние не показывается.
 
-![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/2023-12-03_08-48-03.png)
+![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/001.png)
 
 
 
