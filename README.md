@@ -49,18 +49,12 @@ hydra -L users.txt -P pass.txt < ip-адрес > ssh
 
 в каждой строчке первого файла должны быть имена пользователей, второго — пароли. В нашем случае это могут быть случайные строки, но ради эксперимента можете добавить имя и пароль существующего пользователя.
 
-Дополнительная информация по hydra: https://kali.tools/?p=1847.
-
-Включение защиты SSH для Fail2Ban:
-
-открыть файл /etc/fail2ban/jail.conf,
-
-найти секцию ssh,
-
-установить enabled в true.
-
-Дополнительная информация по Fail2Ban:https://putty.org.ru/articles/fail2ban-ssh.html.
-
 В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.
 
-![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/2023-12-04_14-36-23.png)
+![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/007.png)
+
+Suricata показывает постоянное сканирование ssh с классификацией "Возможна утечка информации".  
+
+![alt text](https://github.com/SergeiShulga/13_3/blob/main/img/006.png)
+
+Лог-файл Fail2ban также показывает попытку подключения по ssh, атакующая машина была заблокирована. Подбор логина и пароля закончился ошибкой.
